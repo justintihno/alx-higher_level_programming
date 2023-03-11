@@ -1,7 +1,4 @@
 #!/usr/bin/python3
 
-output = ""
-for i in range(90, 64, -1):
-    output += "{}{}".format(chr(i + 32), chr(i))
-print(output, end="")
-
+for i in range(25, -1, -1):
+    print("{0}{1}".format(chr(97 + i), chr(65 + i)), end="")
