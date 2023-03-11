@@ -1,0 +1,17 @@
+#!/usr/bin/bash
+import py_compile
+import os
+
+pyfile = os.environ.get('PYFILE')
+
+if pyfile is None:
+    print('PYFILE environment variable not set')
+    exit(1)
+
+try:
+    py_compile.compile(pyfile, cfile=pyfile + 'c')
+except py_compile.PyCompileError:
+    print('Error compiling file {}'.format(pyfile))
+    exit(1)
+
+print('File {} compiled successfully to {}'.format(pyfile, pyfile + 'c'))
