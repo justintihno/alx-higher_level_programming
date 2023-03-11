@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 import py_compile
 import os
 
