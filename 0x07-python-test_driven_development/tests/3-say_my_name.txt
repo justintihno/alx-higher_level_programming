@@ -2,13 +2,12 @@
 How to Use 3-say_my_name.py
 ===========================
 
-This module defines ``say_my_name(first_name, last_name=""):``
+This module defines ``say_my_name(first_name, last_name="")``
 
 Usage
 =====
 
-``say_my_name(first_name, last_name=""):```
-returns first and last name.
+``say_my_name(...)`` prints "My name is <first_name<>last_name>
 
 ::
     >>> say_my_name= __import('3-say_my_name').say_my_name
