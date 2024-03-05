@@ -11,21 +11,40 @@ Usage
 returns first and last name.
 
 ::
-    >>>say_my_name_(John, Wick)
-    John Wick
+    >>> say_my_name= __import('3-say_my_name').say_my_name
+    >>> say_my_name("John", "Wick")
+    My name is John Wick
 
 ::
-    >>>say_my_name(John, 98):
+    >>> say_my_name("John", "Wick")
+    My name is John Wick
+
+
+Invalid Names
+=============
+
+The parameters ``first_name`` and ``last_name``` must be strings.
+Otherwise, a TypeError is raised.
+
+::
+
+    >>> say_my_name(John, 98)
     Traceback (most recent call last):
     TypeError: last_name must be a string
 
 ::
 
-    >>>say_my_name(98, John):
+    >>> say_my_name(98, John)
     Traceback (most recent call last):
     TypeError: first_name must be a string
 
 ::
-    >>>say_my_name(none):
+    >>> say_my_name(none)
     Traceback (most recent call last):
-    TypeError: No name present
+    TypeError: first_name must be a string
+
+::
+
+    >>> say_my_name()
+    Traceback (most recent call last):
+    TypeError: say_my_name() missing 1 argument: 'first_name'
