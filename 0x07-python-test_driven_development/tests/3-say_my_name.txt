@@ -1,1 +1,19 @@
-Say my name
+How to use 3-say_my_name
+
+This module defines printing first_name and last_name
+
+def say_my_name(first_name, last_name=""):
+
+
+>>>say_my_name(John, 98):
+Traceback (most recent call last):
+TypeError: last_name must be a string
+
+
+>>>say_my_name(98, John):
+Traceback (most recent call last):
+TypeError: first_name must be a string
+
+>>>say_my_name(none):
+Traceback (most recent call last):
+TypeError: No name present
