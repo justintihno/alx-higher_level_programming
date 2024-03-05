@@ -10,11 +10,6 @@ Usage
 ``say_my_name(...)`` prints "My name is <first_name<>last_name>
 
 ::
-    >>> say_my_name= __import('3-say_my_name').say_my_name
-    >>> say_my_name("John", "Wick")
-    My name is John Wick
-
-::
     >>> say_my_name("John", "Wick")
     My name is John Wick
 
