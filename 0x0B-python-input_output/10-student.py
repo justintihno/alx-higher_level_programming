@@ -23,8 +23,8 @@ class Student:
         If attrs is a list of strings, represents only those attributes
         included in the list.
 
-        Args:
-            attrs (list): (Optional) The attributes to represent.
+        Returns:
+            dict: A dic rep of the string
         """
         if isinstance(attrs, list) and
                 all(isinstance(ele, str) for ele in attrs):
