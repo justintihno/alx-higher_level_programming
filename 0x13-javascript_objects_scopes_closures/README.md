@@ -36,6 +36,7 @@ $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 $ sudo apt-get install -y nodejs
 
 * Install semi-standard
+
 [Documentation]((https://github.com/standard/semistandard))
 
 $ sudo npm install semistandard --global
@@ -45,11 +46,8 @@ Files | Description
 ----- | -----------
 [0-rectangle.js](./0-rectangle.js) | JS script that defines an empty class Rectangle
 [1-rectangle.js](./1-rectangle.js) | JS script that defines a rectangle:
-
 * You must use the class notation for defining your class
-* The constructor must take 2 arguments w and h
-* Initialize the instance attribute width with the value of w
-* Initialize the instance attribute height with the value of h
+* The constructor must take 2 arguments, attr width  w and attr height h
 [2-rectangle.js](./2-rectangle.js) | JS script that defines a rectangle:
 
 * You must use the class notation for defining your class
