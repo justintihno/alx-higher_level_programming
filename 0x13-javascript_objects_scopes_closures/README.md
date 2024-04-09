@@ -45,63 +45,17 @@ $ sudo npm install semistandard --global
 Files | Description
 ----- | -----------
 [0-rectangle.js](./0-rectangle.js) | JS script that defines an empty class Rectangle
-[1-rectangle.js](./1-rectangle.js) | JS script that defines a rectangle; * Class notation used for defining class. * The constructor must take 2 arguments, attr width  w and attr height h
-[2-rectangle.js](./2-rectangle.js) | JS script that defines a rectangle:
+[1-rectangle.js](./1-rectangle.js) | JS script that defines a rectangle: Class notation used for defining class. The constructor takes 2 arguments, attr width  w and attr height h
+[2-rectangle.js](./2-rectangle.js) | JS script that defines a rectangle: Class notation used for defining class. The constructor takes 2 arguments, attr width  w and attr height h. If w or h is equal to 0 or not a positive integer, an empty object is created
+[3-rectangle.js](./3-rectangle.js) | JS script that defines a rectangle: Class notation used for defining class. The constructor takes 2 arguments, attr width  w and attr height h. If w or h is equal to 0 or not a positive integer, an empty object is created. An instance method called print() that prints the rectangle using the character X is created
+[4-rectangle.js](./4-rectangle.js) | JS script that defines a rectangle: Class notation used for defining class. The constructor takes 2 arguments, attr width  w and attr height h. If w or h is equal to 0 or not a positive integer, an empty object is created. An instance method called print() that prints the rectangle using the character X is created. An instance method called rotate() is created that exchanges the width and the height of the rectangle. An instance method called double() is created that multiples the width and the height of the rectangle by 2
+[5-square.js](./5-square.js) | JS script that defines a square and inherits from Rectangle of [4-rectangle.js](./4-rectangle.js): Class notation is used for defining class and extends. Constructor takes 1 argument: size. Constructor of Rectangle is called (by using super())
+[6-square.js](./6-square.js) | JS script that defines a square and inherits from Square of [5-square.js](./5-square.js): Class notation is used for defining class and extends. Create an instance method called charPrint(c) that prints the rectangle using the character c. If c is undefined, use the character X
+[7-occurrences.js](./7-occurrences.js) | JS script that returns the number of occurrences in a list: Prototype: exports.nbOccurences = function (list, searchElement)
+[8-esrever.js](./8-esrever.js) | JS script that returns the reversed version of a list: Prototype: exports.esrever = function (list). Built-in method reverse is not used
+[9-logme.js](./9-logme.js) | JS script that prints the number of arguments already printed and the new argument value: Prototype: exports.logMe = function (item). Output format: <number arguments already printed>: <current argument value>
 
-* You must use the class notation for defining your class
-* The constructor must take 2 arguments w and h
-* Initialize the instance attribute width with the value of w
-* Initialize the instance attribute height with the value of h
-* If w or h is equal to 0 or not a positive integer, create an empty object
-[3-rectangle.js](./3-rectangle.js) | JS script that defines a rectangle:
-
-* You must use the class notation for defining your class
-* The constructor must take 2 arguments: w and h
-* Initialize the instance attribute width with the value of w
-* Initialize the instance attribute height with the value of h
-* If w or h is equal to 0 or not a positive integer, create an empty object
-* Create an instance method called print() that prints the rectangle using the character X
-[4-rectangle.js](./4-rectangle.js) | JS script that defines a rectangle:
-
-* You must use the class notation for defining your class
-* The constructor must take 2 arguments: w and h
-* Initialize the instance attribute width with the value of w
-* Initialize the instance attribute height with the value of h
-* If w or h is equal to 0 or not a positive integer, create an empty object
-* Create an instance method called print() that prints the rectangle using the character X
-* Create an instance method called rotate() that exchanges the width and the height of the rectangle
-* Create an instance method called double() that multiples the width and the height of the rectangle by 2
-[5-square.js](./5-square.js) | JS script that defines a square and inherits from Rectangle of [4-rectangle.js](./4-rectangle.js)
-
-* You must use the class notation for defining your class and extends
-* The constructor must take 1 argument: size
-* The constructor of Rectangle must be called (by using super())
-
-[6-square.js](./6-square.js) | JS script that defines a square and inherits from Square of [5-square.js](./5-square.js)
-
-* You must use the class notation for defining your class and extends
-* Create an instance method called charPrint(c) that prints the rectangle using the character c
-* If c is undefined, use the character X
-
-[7-occurrences.js](./7-occurrences.js) | JS script that returns the number of occurrences in a list:
-
-* Prototype: exports.nbOccurences = function (list, searchElement)
-
-[8-esrever.js](./8-esrever.js) | JS script that returns the reversed version of a list:
-
-* Prototype: exports.esrever = function (list)
-* You are not allow to use the built-in method reverse
-
-[9-logme.js](./9-logme.js) | JS script that prints the number of arguments already printed and the new argument value
-
-* Prototype: exports.logMe = function (item)
-* Output format: <number arguments already printed>: <current argument value>
-
-[10-converter.js](./10-converter.js) | JS script that converts a number from base 10 to another base passed as argument:
-
-* Prototype: exports.converter = function (base)
-* You are not allowed to import any file
-* You are not allowed to declare any new variable (var, let, etc..)
+[10-converter.js](./10-converter.js) | JS script that converts a number from base 10 to another base passed as argument: Prototype: exports.converter = function (base). No file is imported. No new variable is declared (var, let, etc..)
 
 [100-map.js](./100-map.js) | JS script that imports an array and computes a new array.
 
