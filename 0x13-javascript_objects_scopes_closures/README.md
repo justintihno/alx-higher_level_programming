@@ -45,9 +45,7 @@ $ sudo npm install semistandard --global
 Files | Description
 ----- | -----------
 [0-rectangle.js](./0-rectangle.js) | JS script that defines an empty class Rectangle
-[1-rectangle.js](./1-rectangle.js) | JS script that defines a rectangle
-					* Class notation used for defining class
-					* The constructor must take 2 arguments, attr width  w and attr height h
+[1-rectangle.js](./1-rectangle.js) | JS script that defines a rectangle; * Class notation used for defining class. * The constructor must take 2 arguments, attr width  w and attr height h
 [2-rectangle.js](./2-rectangle.js) | JS script that defines a rectangle:
 
 * You must use the class notation for defining your class
